@@ -1,0 +1,11 @@
+ul{
+  justify-content: space-around;
+  display: flex;
+  font-weight: 600;
+}
+li:hover{
+  cursor: pointer;
+  color: orange;
+  font-weight: 600;
+  font-size: 22px;
+}

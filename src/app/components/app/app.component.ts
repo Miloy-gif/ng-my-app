@@ -10,12 +10,4 @@ import {Post} from '../../models/Post';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
-  users: User[];
-  posts: Post[];
-
-  constructor(private userService: UserService, private postService: PostService ) {
-  userService.users().subscribe(value => this.users = value);
-  postService.posts().subscribe(value => this.posts = value);
- }
-}
+export class AppComponent {}

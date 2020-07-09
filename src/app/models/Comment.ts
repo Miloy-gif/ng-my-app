@@ -1,6 +1,5 @@
 export interface Comment {
-  'userId': number;
-  'id': number;
-  'body': string;
-  'email': string;
+  id: number;
+  title: string;
+  body: string;
 }
